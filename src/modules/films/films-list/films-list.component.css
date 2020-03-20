@@ -1,0 +1,26 @@
+table {
+  width: 100%;
+}
+
+tr.film-detail-row {
+  height: 0;
+}
+
+tr.film-row:not(.example-expanded-row):hover {
+  background: whitesmoke;
+}
+
+tr.film-row:not(.example-expanded-row):active {
+  background: #efefef;
+}
+
+.film-detail {
+  overflow: hidden;
+  display: flex;
+  width: 100%;
+}
+
+.film-description {
+  padding: 16px;
+  width: 100%;
+}
